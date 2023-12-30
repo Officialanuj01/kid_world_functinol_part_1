@@ -106,13 +106,6 @@ addBtn.forEach((element,index)=>{
     
 })
 
-addBtn.forEach((element)=>{
-    element.addEventListener("click",(value)=>{
-        totalItem++
-        cart.textContent = `${totalItem}`
-    })
-})
-
 cart.addEventListener("click", () => {
     console.log(cartDetails);
 })
